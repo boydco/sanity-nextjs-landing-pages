@@ -8,6 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import page from './documents/page';
 import route from './documents/route';
 import siteConfig from './documents/siteConfig';
+import event from './documents/event';
 
 // Object types
 import cta from './objects/cta';
@@ -32,6 +33,7 @@ export default createSchema({
   types: schemaTypes.concat([
     cta,
     embedHTML,
+    event,
     figure,
     hero,
     imageSection,
